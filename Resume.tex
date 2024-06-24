@@ -1,0 +1,462 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{pifont}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+% ----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% % serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.4in}
+\addtolength{\evensidemargin}{-0.4in}
+\addtolength{\textwidth}{0.8in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{3in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeCertificationHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+
+
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+  {\textbf{\Huge \scshape Monirul Haque}}  \\ \vspace{0.08in}
+  E block, Aftabnagar, Dhaka - 1212, Bangladesh \\ \vspace{1pt}
+  % \href{mailto:monirul.haque.mail@gmail.com}{\raisebox{-0.05\height}\faEnvelope\  \color{NavyBlue}monirul.haque.mail@gmail.com} ~ 
+  \href{mailto:monirul.haque@g.Bracu.ac.bd}{\raisebox{-0.05\height}\faEnvelope\  \color{NavyBlue}monirul.haque@g.bracu.ac.bd} ~
+  \href{https://www.linkedin.com/in/monirulhaq/}{\raisebox{-0.05\height} \faLinkedin\ \color{NavyBlue}{monirulhaq}}  ~
+  \href{https://scholar.google.com/citations?user=PfjUg1UAAAAJ&hl=en&oi=sra}{\raisebox{-0.05\height}\faGraduationCap\  \color{NavyBlue} Google Scholar} ~
+  \href{https://monirulhaque.github.io/}{\raisebox{-0.05\height}\faHome\ \color{NavyBlue}monirulhaque.github.io}  ~
+  \href{https://github.com/monirulHaque}{\raisebox{-0.05\height}\faGithub\ \color{NavyBlue}monirulHaque}  ~
+
+
+  \vspace{-6pt}
+\end{center}
+
+%-----------RESEARCH INTERESTS-----------
+\section{RESEARCH INTERESTS}
+Natural Language Processing, Computer Vision, Generative Adversarial Network, Text Retrieval, Machine Learning
+
+\vspace{-6pt}
+
+%-----------EDUCATION-----------
+\section{ACADEMIC QUALIFICATIONS}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Master of Science in Computer Science and Engineering}{Spring 2023 -- Present}
+{Brac University, Dhaka, Bangladesh}{CGPA: 3.83 out of 4.00 (Thesis Defense Pending)}
+\resumeSubheading
+{Bachelor of Science in Computer Science and Engineering}{Summer 2018 -- Fall 2021}
+{Brac University, Dhaka, Bangladesh}{CGPA: 3.81 out of 4.00}
+\resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+% \section{Relevant Coursework}
+%     %\resumeSubHeadingListStart
+%         \begin{multicols}{4}
+%             \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                 \item\small Data Structures
+%                 \item Software Methodology
+%                 \item Algorithms Analysis
+%                 \item Database Management
+%                 \item Artificial Intelligence
+%                 \item Internet Technology
+%                 \item Systems Programming
+%                 \item Computer Architecture
+%             \end{itemize}
+%         \end{multicols}
+%         \vspace*{2.0\multicolsep}
+%     %\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------
+\section{PUBLICATIONS}
+
+\href{https://aclanthology.org/2023.ranlp-1.81/}{\textbf{\emph{\color{NavyBlue} BanglaBait: Semi-Supervised Adversarial Approach for Clickbait Detection on Bangla Clickbait Dataset.}}} Md. Motahar Mahtab, \textbf{Monirul Haque}, Mehedi Hasan, and Farig Sadeque. Proceedings of Recent Advances in Natural Language Processing, pages 748–758, Varna, Bulgaria, September 2023. \emph{https://aclanthology.org/2023.ranlp-1.81/}
+
+\vspace{-6pt}
+
+%-----------Research Projects-----------
+\section{RESEARCH PROJECTS}
+\textbf{Text Retrieval using Community Detection Techniques on a Word Association Graph Network} \\
+\emph{A novel information retrieval technique that leverages community detection on a word association graph network generated from a news corpus. Iorking on it as my M.Sc. thesis.} \\
+\vspace{0.04in}
+\textbf{WhisperWave: Synergizing Parameter Efficient Fine-Tuning using LoRA Technique in Transformer Models for Out-Of-Distribution Bangla Automated Speech Recognition} (Accepted in IEEE CSDE 2023) \\
+\emph{Fine-tuning pre-trained multilingual Whisper LargeV2 with Low-Rank Adaptation Parameter Efficient Fine-Tuning Technique on a low specification computer.} \\
+\vspace{0.04in}
+\textbf{Flagging Sexism on Social Media Leveraging Hidden Layers of Transformers as Word
+  Representations and Facilitating Model Interpret-ability through XAI Techniques}  (Accepted in IEEE CSDE 2023) \\
+\emph{Calibrated different layers of pre-trained BERT-based transformer models to obtain higher scores on the SemEval-2023 Task 10 Dataset while explaining their insights using Lime and SHAP.} \\
+\vspace{0.04in}
+\textbf{Machine Learning-Based Prediction of Rice Leaf Nutrient Contents Across Growth Stages Using UAV Data} (Review in process in Smart Agricultural Technology) \\
+\emph{Analyzed multi-spectral images from UAV drones to calculate different vegetation indexes and canopy reflectance from a completely new dataset sponsored by BRRI and experimented machine learning techniques for predection.}
+
+\vspace{-6pt}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{TEACHING EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Adjunct Lecturer}{May 2022 -- Present}
+{Brac University, Dhaka, Bangladesh}{}\\
+% \resumeSubHeadingListStart
+\vspace{0.1in}
+\small{Courses:}
+\vspace{-.18in}
+\begin{itemize}[leftmargin=.5in]
+  \item[\null]
+    \begin{multicols}{3}
+      \begin{itemize}[leftmargin=0.2in, itemsep=0pt, parsep=3pt]
+        \setlength\itemsep{-3pt}
+        \item\small CSE111: Programming Languages II
+        \item CSE220: Data Structures
+        \item CSE221: Algorithms
+        \item CSE341: Microprocessors
+        \item CSE331: Automata \& Computability
+        \item CSE360: Computer Interfacing
+        \item CSE370: Database Systems
+        \item CSE419: Competitive Programming
+        \item CSE421: Computer Networks
+        \item CSE422: Artificial Intelligence
+        \item CSE446: Blockchain
+
+      \end{itemize}
+    \end{multicols}
+\end{itemize}
+\vspace{-6pt}
+\resumeSubheading
+{Undergraduate Teaching Assistant}{June 2021 -- January 2022}
+{Brac University, Dhaka, Bangladesh}{}\\
+% \resumeSubHeadingListStart
+\vspace{0.1in}
+\small{Courses:}
+\vspace{-.18in}
+\begin{itemize}[leftmargin=.5in]
+  \item[\null]
+    \begin{multicols}{3}
+      \begin{itemize}[leftmargin=0.2in, itemsep=0pt, parsep=3pt]
+        \setlength\itemsep{-3pt}
+        \item\small CSE220: Data Structures
+        \item CSE221: Algorithms
+      \end{itemize}
+    \end{multicols}
+\end{itemize}
+
+% \resumeSubHeadingListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-16pt}
+
+
+%-----------CERTIFICATIONS-----------
+\section{CERTIFICATIONS}
+\vspace{-4pt}
+\resumeSubHeadingListStart
+\resumeCertificationHeading
+{\textbf{\href{https://www.coursera.org/account/accomplishments/certificate/V2UL8PXTYLSZ}{\emph{\color{NavyBlue}Neural Networks and Deep Learning}}}}{DeepLearning.AI, Coursera, July 2020}
+\vspace{-22pt}
+
+\resumeCertificationHeading
+{\textbf{\href{https://www.coursera.org/account/accomplishments/certificate/PQR86HHFEC46}{\emph{\color{NavyBlue}Introduction to Applied Machine Learning}}}}{Alberta Machine Intelligence Institute, Coursera, July 2020}
+\vspace{-22pt}
+\resumeCertificationHeading
+{\textbf{\href{https://www.coursera.org/account/accomplishments/specialization/certificate/S38DMAJSXH5A}{\emph{\color{NavyBlue}Machine Learning Specialization}}}}{University of Washington, Coursera, June 2020}
+\vspace{-22pt}
+\resumeCertificationHeading
+{\textbf{\href{https://raw.githubusercontent.com/monirulHaque/Resume/main/Basics\%20of\%20Robotics\%2C\%20RS\%20Activity\%202018.jpg}{\emph{\color{NavyBlue}Basics of Robotics}}}}{Brac University, Residential Campus, December 2018}
+%     \vspace{-22pt}
+% \resumeCertificationHeading
+%     {\textbf{\href{https://media.licdn.com/dms/image/C562DAQEX6s21_scnWQ/profile-treasury-image-shrink_800_800/0/1615444000042?e=1700568000&v=beta&t=utsthPcxDSX0YIZ0aQLvjqh12QvRyOh5ON--PAa8GBY}{\emph{\color{Basics of Robotics}}}}{Brac University, Residential Campus, December 2018}
+\resumeSubHeadingListEnd
+\vspace{-8pt}
+%-----------ACHIEVEMENTS-----------
+\section{ACHIEVEMENTS}
+\vspace{-2pt}
+\begin{itemize}[leftmargin=0.2in, label={}, parsep=-2pt]
+  \small{
+  \item [\ding{112}]{
+        \textbf{Participant} in \textbf{ICPC Dhaka Regional, 2019}}
+  \item [\ding{112}]{Stood \textbf{21\textsuperscript{st} in LU CSE Carnival Programming Contest, Sylhet, 2019}}
+  \item [\ding{112}]{Stood \textbf{5\textsuperscript{th} in CSE-ian of BD Programming Contest 7, 2019} (Junior Division)}
+  \item [\ding{112}]{Appeared in \textbf{VC's List 4 times} and \textbf{Dean's List 2 times}}
+
+        }
+\end{itemize}
+% \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+\newpage
+%-----------COCURRICULAR ACTIVITIES-----------
+\section{CO--CURRICULAR ACTIVITIES}
+
+\begin{itemize}[leftmargin=0.2in, label={}, parsep=-3pt]
+  \small{
+  \item [\ding{109}]{
+        Served as the role of \textbf{Coach} for two teams in \textbf{ICPC Dhaka Regional 2022} \& four teams in \textbf{ICPC Dhaka Regional 2023}} \\
+  \item [\ding{109}]{Conducted a workshop on \textbf{Introduction to Competitive Programming} in \textbf{Fall 22}}
+  \item [\ding{109}]{Acted as a \textbf{Representative of Robotics activity} in RS day (\textbf{Residential Semester 49, 2018})}
+        }
+\end{itemize}
+\vspace{-16pt}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{TECHNICAL SKILLS}
+\vspace{-0.5pt}
+\begin{itemize}[leftmargin=0in, label={}, parsep=-2pt]
+  \small{\item{
+                \textbf{Languages}{: Python, C/C++, Java, JavaScript, PHP, XML, JSON, MarkDown}}
+    \item{\textbf{AI Frameworks/Libraries}{: Pytorch, Tensorflow, Keras, Scikit-Learn, Hugging Face}}
+    \item{\textbf{Tools}{: Git, Docker, \LaTeX, Selenium, Playwright, CUDA}}
+    \item{\textbf{DBMS}{: MySQL, PostgreSQL, Oracle, SQLite, MongoDB (NOSQL)}}
+    \item{\textbf{Web Technologies}{: Spring Boot, Django, Node JS, Express JS, React JS, HTML/CSS, Bootstrap}}
+  }
+\end{itemize}
+\vspace{-16pt}
+
+%-----------RESEARCH INTERESTS-----------
+\section{RELEVANT COURSES}
+CSE712: Symbolic Machine Learning II (NLP)
+CSE710: Advanced Artificial Intelligence
+CSE706: Parallel Programming
+CSE713: Advanced Syntactic Pattern Recognition
+STA301: STA 301 Modern Probability Theory \& Stochastic Processes
+
+\vspace{-8pt}
+%-----------Software Projects-----------
+\section{SOFTWARE PROJECTS}
+\vspace{-0.5pt}
+\begin{itemize}[leftmargin=0in, label={}, parsep=-2pt] {
+    \small {
+      \item{
+                  \href{https://github.com/monirulHaque/myentertainmenthub}{\textbf{\emph{\color{NavyBlue} My Entertainment Hub: }}}Java, Spring Boot, Spring Security, MySQL, MVC, TMDb API}
+
+      \item{
+                  \href{https://github.com/monirulHaque/Web-Scrappers-for-Thesis}{\textbf{\emph{\color{NavyBlue} Bengali Online News Scrapper: }}}Python GUI, Selenium Web Driver}
+
+      \item{
+                  \href{https://github.com/monirulHaque/Catch-The-Letter-8086-game}{\textbf{\emph{\color{NavyBlue} Catch the Letter 8086 Game: }}}8086 Assembly Language, TASM compile, DOSBox}
+
+      \item{
+                  \href{https://github.com/monirulHaque/student_scholarship}{\textbf{\emph{\color{NavyBlue} Students Scholarship Management System: }}}Node JS, Express, MySQL, Embedded JavaScript}
+    }}
+
+
+
+
+  % \item{\textbf{Frameworks}{: Tensorflow, Pytorch, CUDA, Git,  Spring Boot, Node JS}}
+\end{itemize}
+\vspace{-16pt}
+
+%-----------LANGUAGE PROFICIENCY-----------
+\section{LANGUAGE PROFICIENCY}
+\vspace{0pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+{IELTS Score: 7.0}{October 2023}
+{Speaking: 7.0, Listening: 8.0, Reading: 7.0, Writing: 6.5}{}
+\resumeSubHeadingListEnd
+\vspace{-8pt}
+%-----------References-----------
+\section{REFERENCES}
+\vspace{0pt}
+\textbf{\href{https://www.scopus.com/authid/detail.uri?authorId=24722142100}{\color{NavyBlue} Muhammad Nur Yanhaona}} \\
+\emph{Associate Professor, Brac University, Dhaka, Bangladesh} \\
+Email: \href{mailto:nur.yanhaona@Bracu.ac.bd}{\color{NavyBlue}nur.yanhaona@Bracu.ac.bd} \\
+\textbf{\href{https://scholar.google.com/citations?user=ULNaeowAAAAJ&hl=en}{\color{NavyBlue} Farig Yousuf Sadeq}} \\
+\emph{Associate Professor, Brac University, Dhaka, Bangladesh} \\
+Email: \href{mailto:farig.sadeque@Bracu.ac.bd}{\color{NavyBlue}farig.sadeque@Bracu.ac.bd} \\
+\textbf{\href{https://codeforces.com/profile/Imran_Bin_Azad}{\color{NavyBlue} Md. Imran Bin Azad}} \\
+\emph{Senior Lecturer, Brac University, Dhaka, Bangladesh} \\
+Email: \href{mailto:imran.azad@Bracu.ac.bd}{\color{NavyBlue}imran.azad@Bracu.ac.bd} \\
+\vspace{-8pt}
+
+
+
+
+
+
+
+% \resumeProjectHeading
+%     {\textbf{Gym Reservation Bot} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2021}
+
+
+
+
+% %-----------PROJECTS-----------
+% \section{Projects}
+%     \vspace{-5pt}
+%     \resumeSubHeadingListStart
+%       \resumeProjectHeading
+%           {\textbf{Gym Reservation Bot} $|$ \emph{Python, Selenium, Google Cloud Console}}{January 2021}
+%           \resumeItemListStart
+%             \resumeItem{Developed an automatic bot using Python and Google Cloud Console to register myself for a timeslot at my school gym.}
+%             \resumeItem{Implemented Selenium to create an instance of Chrome in order to interact with the correct elements of the web page.}
+%             \resumeItem{Created a Linux virtual machine to run on Google Cloud so that the program is able to run everyday from the cloud.}
+%             \resumeItem{Used Cron to schedule the program to execute automatically at 11 AM every morning so a reservation is made for me.}
+%           \resumeItemListEnd
+%           \vspace{-13pt}
+%       \resumeProjectHeading
+%           {\textbf{Ticket Price Calculator App} $|$ \emph{Java, Android Studio}}{November 2020}
+%           \resumeItemListStart
+%             \resumeItem{Created an Android application using Java and Android Studio to calculate ticket prices for trips to museums in NYC.}
+%             \resumeItem{Processed user inputted information in the back-end of the app to return a subtotal price based on the tickets selected.}
+%             \resumeItem{Utilized the layout editor to create a UI for the application in order to allow different scenes to interact with each other.}
+%           \resumeItemListEnd 
+%           \vspace{-13pt}
+%           \resumeProjectHeading
+%           {\textbf{Transaction Management GUI} $|$ \emph{Java, Eclipse, JavaFX}}{October 2020}
+%           \resumeItemListStart
+%             \resumeItem{Designed a sample banking transaction system using Java to simulate the common functions of using a bank account.}
+%             \resumeItem{Used JavaFX to create a GUI that supports actions such as creating an account, deposit, withdraw, list all acounts, etc.}
+%             \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+%           \resumeItemListEnd 
+%     \resumeSubHeadingListEnd
+% \vspace{-15pt}
+
+
+% %
+% %-----------PROGRAMMING SKILLS-----------
+% \section{Technical Skills}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Languages}{: Python, Java, C, HTML/CSS, JavaScript, SQL} \\
+%      \textbf{Developer Tools}{: VS Code, Eclipse, Google Cloud Platform, Android Studio} \\
+%      \textbf{Technologies/Frameworks}{: Linux, Jenkins, GitHub, JUnit, WordPress} \\
+%     }}
+%  \end{itemize}
+%  \vspace{-16pt}
+
+
+% %-----------INVOLVEMENT---------------
+% \section{Leadership / Extracurricular}
+%     \resumeSubHeadingListStart
+%         \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+%             \resumeItemListStart
+%                 \resumeItem{Achieved a 4 star fraternity ranking by the Office of Fraternity and Sorority Affairs (highest possible ranking).}
+%                 \resumeItem{Managed executive board of 5 members and ran weekly meetings to oversee progress in essential parts of the chapter.}
+%                 \resumeItem{Led chapter of 30+ members to work towards goals that improve and promote community service, academics, and unity.}
+%             \resumeItemListEnd
+
+%     \resumeSubHeadingListEnd
+
+
+\end{document}
