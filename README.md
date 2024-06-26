@@ -8,3 +8,15 @@
 <a href="https://codeforces.com/profile/monirul_haque" target="_blank"><img alt="Codeforces" src="https://img.shields.io/badge/Codeforces-445f9d?style=for-the-badge&logo=Codeforces&logoColor=white" /></a>
 </p>
 I'm a Computer Science graduate currently working as an Adjunct Lecturer of Computer Science & Engineering. I am an extremely enthusiastic and inquisitive person who is flexible in switching to different technologies. I’m currently pursuing a master’s degree in Computer Science and Engineering focusing on solving Natural Language Processing problems through research works. I have a fervent desire to pursue higher studies abroad to expand my academic and cultural horizons.
+
+## Skilss
+### Languages
+![Python](https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white) 
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=flat&logo=solidity&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white)
+
