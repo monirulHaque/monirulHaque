@@ -9,7 +9,7 @@
 </p>
 I'm a Computer Science graduate currently working as an Adjunct Lecturer of Computer Science & Engineering. I am an extremely enthusiastic and inquisitive person who is flexible in switching to different technologies. I’m currently pursuing a master’s degree in Computer Science and Engineering focusing on solving Natural Language Processing problems through research works. I have a fervent desire to pursue higher studies abroad to expand my academic and cultural horizons.
 
-## Skils
+## Skills
 **Languages**<br/>
 ![Python](https://img.shields.io/badge/Python-14354C?style=flat&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
